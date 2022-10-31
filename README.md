@@ -1,16 +1,16 @@
 ## Welcome! 
 
-The Data Scientist Nanodegree program tackles topics such as building machine learning models, running data pipelines, designing experiments and recommendation engines, communicate effectively, and deploying data applications.
+The *Data Scientist Nanodegree* program tackles topics such as building machine learning models, running data pipelines, designing experiments and recommendation engines, communicate effectively and deploying data applications. There ae four projects in this series.
 
 ## Write a Data Science Blog Post: Analysis of 2020 Stack Overflow Developers Survey
 
 <img src='images/p1_image.png' width="600" height="300">
 
-_Project_1_: Use Scikit-Learn and regression to analyze a real dataset of housing prices in Boston. Build and optimize a model to predict the price of houses, based on their features.
+_Project_1_: Analysis of 2020 Stack Overflow Developers Survey 
 
-I evaluate the performance and predictive power of a model that has been trained and tested on data collected from homes in suburbs of Boston, Massachusetts and available on [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.php). A model trained on this data that is seen as a good fit could then be used to make certain predictions about the monetary value of a home. 
+The project consists of choosing a subject of interest, find and analyze the data and write a nontechnical data science blog post. The process follows the CRISP-DM methodology. The 2020 Stack Overflow developers survey data is explored.
 
-_The model uses a Decision Tree Algorithm. The work is done on a template Jupyter Notebook provided by Udacity. The code is written in Python 3 using NumPy and Pandas._
+_The process follows the CRISP-DM methodology. In the first part, a Z-test for independent means is performed to compare the salaries between data and other developers. In the second part a machine learning model based on a RandomForestClassifier is used to predict job satisfaction for data developers. The work is done in a Jupyter Notebook, the code is written in Python 3 using NumPy and Pandas._
 
 [Link: Project1](https://github.com/SolanaO/Developers_Survey_Analysis)
 
