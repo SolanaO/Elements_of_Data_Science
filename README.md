@@ -4,13 +4,21 @@ The *Data Scientist Nanodegree* program tackles topics such as building machine 
 
 ## Write a Data Science Blog Post: Analysis of 2020 Stack Overflow Developers Survey
 
-<img src='images/p1_image.png' width="600" height="300">
+_Project_1_: Analysis of 2020 Stack Overflow Developers Survey 
+
+The project consists of chosing a subject of interest, finding and analyzing the data and writing a nontechnical data science blog post. The process follows the CRISP-DM methodology. The 2020 Stack Overflow developers survey data is explored.
+
+_In the first part, the salaries between data and other developers are compared using a Z-test for independent means. In the second part a machine learning model based on a RandomForestClassifier is used to predict job satisfaction for data developers. The work is done in a Jupyter Notebook, the code is written in Python 3 using NumPy and Pandas._
+
+[Link: Project1](https://github.com/SolanaO/Developers_Survey_Analysis)
+
+## Write a Data Science Blog Post: Analysis of 2020 Stack Overflow Developers Survey
 
 _Project_1_: Analysis of 2020 Stack Overflow Developers Survey 
 
-The project consists of choosing a subject of interest, find and analyze the data and write a nontechnical data science blog post. The process follows the CRISP-DM methodology. The 2020 Stack Overflow developers survey data is explored.
+The project consists of chosing a subject of interest, finding and analyzing the data and writing a nontechnical data science blog post. The process follows the CRISP-DM methodology. The 2020 Stack Overflow developers survey data is explored.
 
-_The process follows the CRISP-DM methodology. In the first part, a Z-test for independent means is performed to compare the salaries between data and other developers. In the second part a machine learning model based on a RandomForestClassifier is used to predict job satisfaction for data developers. The work is done in a Jupyter Notebook, the code is written in Python 3 using NumPy and Pandas._
+_In the first part, the salaries between data and other developers are compared using a Z-test for independent means. In the second part a machine learning model based on a RandomForestClassifier is used to predict job satisfaction for data developers. The work is done in a Jupyter Notebook, the code is written in Python 3 using NumPy and Pandas._
 
 [Link: Project1](https://github.com/SolanaO/Developers_Survey_Analysis)
 
