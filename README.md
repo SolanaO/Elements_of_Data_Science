@@ -15,7 +15,7 @@ In the first part, the salaries between data and other developers are compared u
 
 ***
 
-## Disaster Response Pipeline and Webb App
+## Disaster Response Pipeline and Web App
 
 _Project_2_: Given a large set of text documents (disaster messages), perform multi-label classification, using supervised machine learning methods. The outcome provides a list of categories each message that is typed in an API belongs to.
 
