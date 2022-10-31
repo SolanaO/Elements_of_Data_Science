@@ -1,49 +1,48 @@
 ## Welcome! 
 
-The *Data Scientist Nanodegree* program tackles topics such as building machine learning models, running data pipelines, designing experiments and recommendation engines, communicate effectively and deploying data applications. There ae four projects in this series.
+The *Data Scientist Nanodegree* program tackles topics such as building machine learning models, running data pipelines, designing experiments and recommendation engines, communicate effectively and deploying data applications. 
+
+***
 
 ## Write a Data Science Blog Post: Analysis of 2020 Stack Overflow Developers Survey
 
-_Project_1_: Analysis of 2020 Stack Overflow Developers Survey 
+_Project_1_: The project consists of chosing a subject of interest, finding and analyzing the data and writing a nontechnical data science blog post. The process follows the CRISP-DM methodology. The 2020 Stack Overflow developers survey data is explored.
 
-The project consists of chosing a subject of interest, finding and analyzing the data and writing a nontechnical data science blog post. The process follows the CRISP-DM methodology. The 2020 Stack Overflow developers survey data is explored.
+In the first part, the salaries between data and other developers are compared using a Z-test for independent means. In the second part a machine learning model based on a Random Forest Classifier is used to predict job satisfaction for data developers. The work is done in a Jupyter Notebook, the code is written in Python 3 using NumPy and Pandas.
 
-_In the first part, the salaries between data and other developers are compared using a Z-test for independent means. In the second part a machine learning model based on a RandomForestClassifier is used to predict job satisfaction for data developers. The work is done in a Jupyter Notebook, the code is written in Python 3 using NumPy and Pandas._
 
 [Link: Project1](https://github.com/SolanaO/Developers_Survey_Analysis)
 
-## Write a Data Science Blog Post: Analysis of 2020 Stack Overflow Developers Survey
+***
 
-_Project_1_: Analysis of 2020 Stack Overflow Developers Survey 
+## Disaster Response Pipeline and Webb App
 
-The project consists of chosing a subject of interest, finding and analyzing the data and writing a nontechnical data science blog post. The process follows the CRISP-DM methodology. The 2020 Stack Overflow developers survey data is explored.
+_Project_2_: Given a large set of text documents (disaster messages), perform multi-label classification, using supervised machine learning methods. The outcome provides a list of categories each message that is typed in an API belongs to.
 
-_In the first part, the salaries between data and other developers are compared using a Z-test for independent means. In the second part a machine learning model based on a RandomForestClassifier is used to predict job satisfaction for data developers. The work is done in a Jupyter Notebook, the code is written in Python 3 using NumPy and Pandas._
-
-[Link: Project1](https://github.com/SolanaO/Developers_Survey_Analysis)
+A Random Forest Classifier is used as a benchmark model. The final model is based on an Ada Boost Classifier wrapped in a MultiOutput Classifier, tuned via grid search with cross validation. The work is done in Jupyter notebooks, using Python data science libraries Numpy and Pandas, visualizations are created in Matplotlib and Plotly, the text is analyzed with NLTK NLP library. A Flask web app is created and deployed on the Heroku platform.
 
 
-For this project, you will be creating a blog post and Github repository to begin building a data science portfolio of your own. You can gain some inspiration from Robert's posts here.
+[Link: Project2](https://github.com/SolanaO/Disaster_Response_Texts)
 
-Come up with three questions you are interested in answering.
-Extract the necessary data to answer these questions.
-Perform necessary cleaning, analysis, and modeling.
-Evaluate your results.
-Share your insights with stakeholders.
-Where to Start
-There are two components that are required for project completion.
+***
 
-A Github repository for your code.
-A blog post of your findings.
-Your Github repository must have the following contents:
+## Recommentations with IBM
 
-A README.md.
-Your code in a Jupyter notebook, with appropriate comments, analysis, and documentation.
-You may also provide any other necessary documentation you find necessary. Your blog must provide the following:
+_Project_3_: We analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles. The following recommenders are built: rank-based, user-user based collaborative filtering, content based and matrix factorization. 
 
-A clear and engaging title and image.
-Your questions of interest.
-Your findings for those questions with a supporting statistic(s), table, or visual.
-The purpose of this project is for you to show off your technical skills, but more importantly for you to begin putting together a portfolio that shows your ability to effectively communicate technical results. Your technical skills will be built up as the program progresses, but for this project the main focus should be on communicating effectively the results of your analysis.
+The work is done in Jupyter notebooks, using Python data science libraries from Sklearn, visualizations are created in Matplotlib, the text is analyzed with NLTK NLP library.
 
-In this project follow the RUBRIC to assure you meet all of the necessary criteria for communicating your findings both as a developer and as a business professional.
+[Link: Project3](https://github.com/SolanaO/Recommendation_Systems/blob/master/Recommendations_with_IBM.ipynb)
+
+***
+## User Activity Based Churn Prediction With PySpark on an AWS-EMR Cluster
+
+_Project_4_: We are investigating and predicting churn for a fictional music platform called Sparkify. This is a binary classification problem, in which the algorithm has to identify which users are most likely to churn. The best performing classifiers are a Multilayer Perceptron and a Gradient Boosted Tree. The results are further improved using a Meta Classifier Linear Regression stacking model.  
+
+The code is written on an Anaconda Jupyter Notebook with a Python3 kernel. Additional libraries and modules used are PySpark, Pandas, Numpy, Matplotlib, 
+Seaborn. The full dataset is trained on an AWS-EMR cluster. 
+
+[Link: Project4](https://github.com/SolanaO/Customer_Churn_Prediction)
+
+***
+
